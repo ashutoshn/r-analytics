@@ -33,7 +33,7 @@ library(patchwork)
 library(tidyr)
 ```
 
-## Create test data frame
+## Create a test data frame
 
 ``` r
 my_df <- data.frame(matrix(runif(15), ncol = 3)) %>%
